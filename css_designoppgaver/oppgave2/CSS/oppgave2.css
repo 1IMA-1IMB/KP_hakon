@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    border: solid rgb(255, 0, 0) 2px;
+    height: 600px;
+    width: 1200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(83, 255, 3) 2px;
+    width: 30%;
+    height: 600px; 
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border: solid rgb(21, 59, 252) 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(255, 0, 123) 2px;
+    width: 30%;
+    height: 600px;
+}
