@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(154, 179, 232);
+}
+
+.Main-Container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Header{
+   background-color: red;
+
+
+}
+
+.Middle{
+    border: solid white;
+    
+}
+
+.footer{
+    border: solid blue;
+}
