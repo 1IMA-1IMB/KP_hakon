@@ -21,7 +21,7 @@
     flex-direction: row;
     align-items: center;
     display: flex;
-    justify-content:space-evenly
+    justify-content:space-evenly;
 }
  
 .bottom-middle {
@@ -29,6 +29,7 @@
     flex-direction: column;
     align-items: center;
     display: flex;
+    padding: 20px;
 }
  
  
@@ -47,6 +48,7 @@
     height: 50%;
     width: 100%;
     border: solid black;
+    
 }
 
 .under{
@@ -57,8 +59,48 @@
     width: 50%;
 }
 
+.under img{
+    height: 50%;
+    width: 100%;
+    border: solid black;
+}
+
+.Imperial-Tokyo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+}
+
+.Imperial-Tokyo img{
+    height: 50%;
+    width: 100%;
+    border: solid black;
+}
+
+.Historic-Kyoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.Historic-Kyoto img{
+    height: 50%;
+    width: 100%;
+    border: solid black;
+}
+
 @media only screen and (max-width: 600px) {
     body {
-      
+        flex-direction: column;
+    }
+
+    .bottom img{
+        flex-direction: column;
     }
   }
+
+ 
