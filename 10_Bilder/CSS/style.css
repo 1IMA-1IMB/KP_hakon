@@ -1,12 +1,15 @@
 
-.IMG1 {
+.IMG {
     padding: 10px;
     margin: 10px;
     width: 50%;
 }
 
-.IMG1 img {
-    border: solid black 2px;
+.IMG img {
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    height: 60%;
 }
 
 .text-row{
@@ -14,12 +17,3 @@
     padding: 10px;
 }
     
-.IMG2 {
-    padding: 10px;
-    margin: 10px;
-    width: 50%;
-}
-
-.IMG2 img {
-    border: solid black 2px;
-}
