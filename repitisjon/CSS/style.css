@@ -1,0 +1,25 @@
+
+.container {
+    border: solid black 2px;
+    height: 100%;
+}
+
+.header {
+    border: solid red 2px;
+}
+
+.nav {
+    border: solid blue 2px;
+    height: 100%;
+    width: 40%;
+    margin-left: auto;
+}
+
+.middle {
+    border: solid green 2px;
+}
+
+.box {
+    border: solid pink 2px;
+    width: 50%;
+}
