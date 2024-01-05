@@ -1,6 +1,6 @@
 
 body{
-    background-color: #1e2124;
+    background-color: #03060a;
 }
 
 h2 {
@@ -11,8 +11,12 @@ h1{
     color: white;
 }
 
+p{
+    color: white;
+}
+
 .container{
-    background-color:#282b30;
+    background-color:#03060b;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -30,14 +34,14 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh; /* 100% of the viewport height */
-    background-color: #36393e; /* set background color */
+    background-color: #04070d; /* set background color */
     width: 80%; 
     margin: 0 auto; /* Center the background container horizontally */
     overflow: hidden; /* Hide any content that overflows the container */
 }
 
 .image-container {
-    max-width: 50%; 
+    max-width: 100%; 
     overflow: hidden;
 }
 
@@ -46,4 +50,20 @@ img {
     height: auto;
 }
 
+.Lore-category{
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    margin: 30px;
+    height: 100vh; 
+    background-color: #04070d; 
+    width: 80%; 
+    margin: 0 auto;
+    overflow: hidden; 
+}
+
+.loreIMG{
+    max-width: 50%; 
+    overflow: hidden;
+}
 
