@@ -1,0 +1,49 @@
+
+body{
+    background-color: #1e2124;
+}
+
+h2 {
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    background-color:#282b30;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #36393e; /* set background color */
+    width: 80%; 
+    margin: 0 auto; /* Center the background container horizontally */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+.image-container {
+    max-width: 50%; 
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
