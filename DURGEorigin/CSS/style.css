@@ -5,7 +5,7 @@ body {
 }
 
 body.fixed-nav {
-    padding-top: 70px; 
+    padding-top: 0px; 
     transition: padding-top 0.3s; /* Adds a transition for smooth effect */
 }
 
@@ -25,20 +25,19 @@ p{
     background-attachment: fixed;
 }
 
-/* Adjust the styles for the logo and navigation bar */
 .logo {
-    display: inline-block; /* Make the logo and menu appear in the same line */
+    display: inline-block; /* Makes the logo and menu appear in the same line */
 }
 
 .logo img {
-    max-height: 60px; /* Increase the maximum height of the logo */
+    max-height: 80px; /*the maximum height of the logo */
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Adjust the padding to increase the height of the navigation bar */
+    padding: 15px; /* Adjust the padding to increase the height of the navigation bar */
     background-color: #151618; /* Set the background color */
 }
 
@@ -114,14 +113,14 @@ img {
     margin: 0 auto;
     overflow: hidden;
     align-items: center; /* centers the content vertically */
-    padding-right: 15px; 
-    
-    
+    padding-right: 15px;  
 }
 
 .text{
-    width: 50%;
+    width: 60%;
     margin: 10px;
+    padding: 10px;
+    text-size-adjust: 12px;
 }
 
 .loreIMG {
@@ -129,3 +128,14 @@ img {
     margin: 10px;
     overflow: hidden;
 }
+
+.Middle-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
