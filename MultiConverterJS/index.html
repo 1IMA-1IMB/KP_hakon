@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MultiConverter</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!-- Converter Section -->
+    <label for="inputValue">Enter value:</label>
+    <input type="number" id="inputValue" placeholder="Enter a value">
 
+    <label for="unitDropdown">Select unit:</label>
+    <select id="unitDropdown">
+        <option value="gallons">Gallons</option>
+        <option value="ounces">Ounces</option>
+        <option value="cups">Cups</option>
+        <option value="tablespoons">Tablespoons</option>
+    </select>
 
+    <button id="submitButton">Convert to Liters</button>
 
-<script src="script.js"></script>
+    <!-- Palindrome Section -->
+    <form id="palindromeForm">
+        <label for="inputNumber">Enter a number:</label>
+        <input type="text" id="inputNumber" name="inputNumber">
+        <button type="button" onclick="checkPalindrome()">Convert</button>
+    </form>
 
+    <span id="palindromeResult"></span>
+
+    <script src="converter.js"></script>
+    <script src="palindrome.js"></script>
 </body>
+
+
 </html>

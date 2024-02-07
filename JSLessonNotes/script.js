@@ -30,5 +30,5 @@ if(elev_liste == liste_kopi){
 
 for(elev in elev_liste){ 
 
-    console.log();
+    console.log(elev_liste[elev]);
 }
