@@ -32,7 +32,7 @@ function handleConversion() {
         return;
     }
 
-    // conversion
+    // conversion result
     const result = convertToLiters(inputValue, selectedUnit);
 
     // check if the result is a finite number
