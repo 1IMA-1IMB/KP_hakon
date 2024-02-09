@@ -1,4 +1,4 @@
-// oppgave 1
+// oppgave 1 og 2
 
 function convertToLiters(value, unit) {
     switch (unit) {
@@ -45,12 +45,13 @@ function handleConversion() {
     alert(`Converted to liters: ${result}`);
 
     // check if result is a palindrome
-    const resultString = result.toString();
-    const isResultPalindrome = isPalindrome(resultString);
+    const isResultPalindrome = isPalindrome(result.toString());
 
     // display palindrome message
-    const palindromeMessage = isResultPalindrome ? "This is a palindrome" : "This is not a palindrome";
-    document.getElementById("palindromeMessage").innerText = palindromeMessage;
+    if (isResultPalindrome) {
+        document.getElementById("palindromeMessage").innerText = "This is a palindrome";
+    } else {
+        document.getElementById("palindromeMessage").innerText = "This is not a palindrome";
+    }
 }
-
 document.getElementById("submitButton").addEventListener("click", handleConversion);
