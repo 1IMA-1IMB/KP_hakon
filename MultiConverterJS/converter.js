@@ -26,16 +26,15 @@ function handleConversion() {
     const inputValue = parseFloat(document.getElementById("inputValue").value);
     const selectedUnit = document.getElementById("unitDropdown").value;
 
-    // check if inputValue is a valid number
+    // checks if inputValue valid 
     if (isNaN(inputValue) || !isFinite(inputValue)) {
         alert("Please enter a valid number for conversion.");
         return;
     }
 
-    // conversion result
+    // conversion
     const result = convertToLiters(inputValue, selectedUnit);
 
-    // check if the result is a finite number
     if (!isFinite(result)) {
         alert("Conversion result is not a valid number.");
         return;
@@ -45,13 +44,12 @@ function handleConversion() {
     alert(`Converted to liters: ${result}`);
 
     // check if result is a palindrome
-    const isResultPalindrome = isPalindrome(result.toString());
+    const resultString = result.toString();
+    const isResultPalindrome = isPalindrome(resultString);
 
     // display palindrome message
-    if (isResultPalindrome) {
-        document.getElementById("palindromeMessage").innerText = "This is a palindrome";
-    } else {
-        document.getElementById("palindromeMessage").innerText = "This is not a palindrome";
-    }
+    const palindromeMessage = isResultPalindrome ? "This is a palindrome" : "This is not a palindrome";
+    document.getElementById("palindromeMessage").innerText = palindromeMessage;
 }
+
 document.getElementById("submitButton").addEventListener("click", handleConversion);
