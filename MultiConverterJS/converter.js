@@ -15,6 +15,7 @@ function convertToLiters(value, unit) {
     }
 }
 
+
 function isPalindrome(str) {
     const cleanStr = str.toString().toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
     const reversedStr = cleanStr.split('').reverse().join('');
